@@ -1,0 +1,39 @@
+#bag {
+    width: 200px;
+    height: 500px;
+    margin: auto;
+    background: url('img/bag.png') center no-repeat;
+    background-size: 80%;
+    transition: transform 0.3s cubic-bezier(0.24, 0.14, 0.9, 1.41);
+    transform-origin: center top;
+}
+
+#bag.burst {
+    background-image: url('img/bag-burst.png');
+}
+
+#bag.swing-left {
+    transform: rotate(20deg);
+}
+
+#bag.swing-right {
+    transform: rotate(-20deg);
+}
+
+#bag-health {
+    width: 200px;
+    border: 2px solid #000;
+    margin: 0 auto 20px auto;
+}
+
+#bag-health div {
+    height: 20px;
+    background: crimson;
+}
+
+#controls {
+    width: 120px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+}
